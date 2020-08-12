@@ -1,5 +1,3 @@
-
-
 body {
     font-family: 'Ubuntu', sans-serif; 
     color: whitesmoke;
@@ -23,14 +21,18 @@ a:visited {
     color:#CD5C5C;
 }
 
-/*this class was made up purely so that I could do the media query*/
+.pic {
+    height: 350px;
+    width: 350px;
+}
+
+/*these classes were made up purely so that I could do the media query*/
 .description {
     color: whitesmoke;
 }
 
-.pic {
-    height: 350px;
-    width: 350px;
+.txt {
+    color:#CD5C5C;
 }
 
 
@@ -45,6 +47,10 @@ a:visited {
         width: 200px;
     }
 
+    .txt {
+        display: none;
+    }
+
 }
 
-/*I want to setup one to change the nav links to icons*/
+/*There is one pixel situation--768--where it breaks and neither the text nor the icon are visible*/

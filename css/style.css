@@ -23,6 +23,29 @@ a:visited {
     color:#CD5C5C;
 }
 
-/*I'll need media query to resize my profile picture and portfolio thumbnails
-Another query for portfolio description text display: none
+/*this class was made up purely so that I could do the media query*/
+.description {
+    color: whitesmoke;
+}
+
+.pic {
+    height: 350px;
+    width: 350px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .description {
+        display: none;
+
+    }
+
+    .pic {
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+/*I'll need media query to resize my profile picture (460px) and portfolio thumbnails (350px)
 Maybe experiment and change the nav links to icons*/

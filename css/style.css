@@ -3,17 +3,26 @@
 body {
     font-family: 'Ubuntu', sans-serif; 
     color: whitesmoke;
-    background-image: url(/assets/bg-blk.jpg);
+    background-image: url(../assets/bg-blk.jpg);
     background-repeat: no-repeat;
 }
 
 hr {
-    border: 1px solid red;
+    border: 1px solid #CD5C5C;
 }
 
 header {
-    color: whitesmoke;
+    color: #CD5C5C;
 }
 
+a:link {
+    color:#CD5C5C;
+}
 
-/*I'll need media query to resize my profile picture and portfolio thumbnails*/
+a:visited {
+    color:#CD5C5C;
+}
+
+/*I'll need media query to resize my profile picture and portfolio thumbnails
+Another query for portfolio description text display: none
+Maybe experiment and change the nav links to icons*/

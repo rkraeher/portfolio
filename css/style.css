@@ -1,3 +1,19 @@
+
+
+body {
+    font-family: 'Ubuntu', sans-serif; 
+    color: whitesmoke;
+    background-image: url(/assets/bg-blk.jpg);
+    background-repeat: no-repeat;
+}
+
 hr {
     border: 1px solid red;
 }
+
+header {
+    color: whitesmoke;
+}
+
+
+/*I'll need media query to resize my profile picture and portfolio thumbnails*/

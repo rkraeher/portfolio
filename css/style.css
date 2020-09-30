@@ -1,8 +1,9 @@
 body {
     font-family: 'Ubuntu', sans-serif; 
     color: whitesmoke;
-    background-image: url(../assets/bg-blk.jpg);
+    background-image: url(../assets/images/backgrounds/bg-blk.jpg);
     background-repeat: no-repeat;
+    line-height: 1.8;
 }
 
 hr {
@@ -24,11 +25,20 @@ a:visited {
 .pic {
     height: 350px;
     width: 350px;
+    padding-right: 20px;     /*These two styles for padding and margin are new. May need mq*/
+    margin-bottom: 2px;
+}
+
+.portfolio {
+    height: 350px;
+    width: 350px;
+    border-left-style: ridge;
 }
 
 .flex-container {
     display: flex;
     justify-content: space-evenly;
+    flex-flow: wrap;
   }
 
 .contact {
@@ -36,14 +46,14 @@ a:visited {
     display: flex;
     align-items: center;
     font-weight: bold;
-    margin: 2px;
+    margin: 5px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: center;
 }
 
-.contact h5 {
+.contact h2 {
     font-weight: bold;
 }
 

@@ -6,11 +6,15 @@ body {
     line-height: 1.8;
 }
 
+.heading {
+    line-height: 2;
+}
+
 hr {
     border: 1px solid #CD5C5C;
 }
 
-header {
+header, .emphasis {
     color: #CD5C5C;
 }
 
@@ -25,7 +29,7 @@ a:visited {
 .pic {
     height: 350px;
     width: 350px;
-    padding-right: 20px;     /*These two styles for padding and margin are new. May need mq*/
+    padding-right: 20px;
     margin-bottom: 2px;
 }
 

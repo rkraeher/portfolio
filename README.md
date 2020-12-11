@@ -1,21 +1,36 @@
-# portfolio
-#Description
+# Portfolio
 
-This project is a three-page professional bio and portfolio website. 
-The home page, index.html is an "about me" page with a headshot and biographical information.
-The portfolio page collects the author's development projects and has clickable, linked thumbnails and brief title/description text about each project.
-    Note: These links, descriptions and images are currently placeholders for future projects. 
-The contact page has a simple name, email, and message form to send messages to the author's linked email through the form.
-    Note: The mailto link is currently a placeholder to prevent spam bots from sending emails to the author's professional email. 
+## Description
+    My professional developer portfolio site.
+    
+## Table of Contents 
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Technologies](#technologies)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Tests](#tests)
+7. [Questions](#questions)
+    
+## Installation
+No installation required.
 
-#Functionality
+## Usage
+Visit the site at: https://rkraeher.github.io/portfolio/
 
-All pages link to each other via the navbar located in the header. This navbar is responsive, and lengthy link
-text is converted into smaller, more mobile friendly icons for a smaller screen size less than 768px wide. These
-icons link in the same way that the text does. 
+## Technologies
+HTML5, CSS3, Bootstrap
 
-The page uses a combination of Bootstrap components/grid layout and customized CSS with limited media queries. 
-
-#Credits
-
-Built & Designed by Rudi Kraeher. 
+## License 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+Copyright (c) 2020 Rudi Kraeher
+    
+## Contributing
+If you wish to contact me please email.
+    
+## Tests
+No testing guidelines at this time.
+    
+## Questions
+If you have any questions about the repo you can email me at rudikraeher@gmail.com.  
+Visit my [GitHub](https://github.com/rkraeher) to see more of my work.
